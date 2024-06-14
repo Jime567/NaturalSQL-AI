@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="stuff.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+    <title>SQL-AI Bike Registry</title>
+</head>
+
+<body>
+    <div class="header">
+        <a href="https://jamesephelps.com">
+            <img src="https://jamesephelps.com/wp-content/uploads/2023/06/JPLogo1-300x280.png" class="logo" alt="logo" width="60px" height="60px">
+        </a>
+        <h1>National Bike Registry</h1>
+        <a href="https://github.com/Jime567/NaturalSQL-AI">
+            <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png" alt="logo" width="60px" height="60px">
+        </a>
+    </div>
+
+    <p> Prompt the database AI to get or edit information in the bike registry. 
+        The registry is a mysql server with prompts handled by ChatGPT 3.5. 
+        The Github with all associated source code is available at this 
+        <a href="https://github.com/Jime567/NaturalSQL-AI">link</a>.</p>
+
+    <input type="text" id="questionInput" placeholder="  Prompt to Edit or Get Information ">
+    <button onclick="submitQuestion()" >Submit</button>
+    <div id="outputContainer" class="output">
+        <p  id="output">
+           
+        </p>
+    </div>    
+    <div id="database">
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

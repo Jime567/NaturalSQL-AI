@@ -1,0 +1,87 @@
+html {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2024;
+    font-family: 'Fira Code';
+    color: #1A970A;
+}
+
+body {
+    display: flex;
+    max-width: 800px;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+h2 {
+    color: #008cff;
+}
+
+.database {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #008cff;
+    border-radius: 10px;
+    max-width: 95%;
+}
+.output {
+    visibility: hidden;
+    display: flex;
+    padding: 15px;
+    border-radius: 20px;
+    border-color: #008cff;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 10px;
+    margin: 3px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0;
+}
+
+p {
+    padding: 5px;
+    margin: 5px;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: #008cff;
+    color: white;
+    cursor: pointer;
+    height: 3em;
+
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 0px;
+    height: 2em;
+}
+
+img {
+    padding: 10px;
+}
+
+a {
+    color: #008cff;
+}
